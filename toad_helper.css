@@ -1,0 +1,48 @@
+h3 {
+  text-align: center;
+}
+
+.top_select {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.top_select div {
+  display: inline;
+}
+
+.bottom_select {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.bottom_select div {
+  display: inline;
+}
+
+.star {
+  width: 100%;
+  text-align: center;
+}
+
+.star div {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.price {
+  width: 100%;
+  text-align: center;
+}
+
+.price div {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.submit {
+  width: 100%;
+  text-align: center;
+}
