@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="toad_helper.css">
+    <title>토드 헬퍼.v.1</title>
+    <h3>토드 헬퍼</h3>
+  </head>
+  <body>
+    <form action="toad_helper_list.php" method="get">
+    <div class="top_select">
+      <div class="set">
+        <select class="select" name="set">
+          <option value="K">카루타</option>
+          <option value="N">네크로</option>
+        </select>
+      </div>
+      <div class="class">
+        <select class="select" name="class">
+          <option value="W">전사</option>
+          <option value="R">궁수</option>
+          <option value="M">마법사</option>
+          <option value="T">도적</option>
+          <option value="P">해적</option>
+        </select>
+      </div>
+      <div class="part">
+        <select class="select" name="part">
+          <option value="H">머리</option>
+          <option value="S">상의</option>
+          <option value="P">하의</option>
+          <option value="F">신발</option>
+        </select>
+      </div>
+      <div class="level">
+        <select class="select" name="level">
+          <option value="5">50급</option>
+          <option value="6">60급</option>
+          <option value="7">70급</option>
+        </select>
+      </div>
+    </div>
+    <div class="bottom_select">
+      <div class="star">
+        <div>
+          스타:<input type="text" name="star">
+        </div>
+      </div>
+      <div class="price">
+        <div>
+          가격:<input type="text" name="price">
+        </div>
+      </div>
+    </div>
+    <div class="submit">
+      <div>
+        <input type="submit" value="확인">
+      </div>
+    </div>
+    </form>
+  </body>
+</html>
